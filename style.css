@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+* {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 5% 0% 0% 13%;
+    font-size: 32px;
+}
+
+#divena {
+    margin-top: 15%;
+    float: left;
+    margin-left: 5%;
+    padding: auto;
+    height: 48vh;
+    width: 90%;
+    background-color: #e28525;
+    border-radius: 12px 12px 0px 0px;
+}
+
+#divena img {
+    margin: 15% 0% 0% 13%;
+}
+
+#divena p {
+    width: 70%;
+    margin: 6% 0% 10% 13%;
+    line-height: 1.6;
+}
+
+#btn1 {
+    background-color: white;
+    color: #e28525;
+    border-radius: 12px;
+    padding: 12px 21px;
+    text-decoration: none;
+    margin: 2% 1% 1% 13%;
+}
+
+#btn1:hover {
+    background-color: #e28525;
+    color: white;
+    border: 2px solid white;
+}
+
+#divdve {
+    margin-left: 5%;
+    height: 48vh;
+    float: left;
+    width: 90%;
+    background-color: #016972;
+}
+
+#divdve img {
+    margin: 15% 0% 0% 13%;
+}
+
+#divdve p {
+    width: 70%;
+    margin: 6% 0% 10% 13%;
+    line-height: 1.6;
+}
+
+#btn2 {
+    background-color: white;
+    color: #016972;
+    border-radius: 12px;
+    padding: 12px 21px;
+    text-decoration: none;
+    margin: 2% 1% 1% 13%;
+}
+
+#btn2:hover {
+    background-color: #016972;
+    color: white;
+    border: 2px solid white;
+}
+
+#divtri {
+    margin-left: 5%;
+    height: 48vh;
+    float: left;
+    width: 90%;
+    background-color: #00403f;
+    border-radius: 0px 0px 12px 12px;
+}
+
+#divtri img {
+    margin: 15% 0% 0% 13%;
+}
+
+#divtri p {
+    width: 70%;
+    margin: 6% 0% 10% 13%;
+    line-height: 1.6;
+}
+
+#btn3 {
+    background-color: white;
+    color: #00403f;
+    border-radius: 12px;
+    padding: 12px 21px;
+    text-decoration: none;
+    margin: 2% 1% 1% 13%;
+}
+
+#btn3:hover {
+    background-color: #00403f;
+    color: white;
+    border: 2px solid white;
+}
+
+@media screen and (min-width: 490px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        clear: both;
+    }
+    img {
+        margin: 0%;
+        width: 0%;
+    }
+    #btk {
+        display: flex;
+    }
+    #divena {
+        display: inline-block;
+        margin: 5% 12.5%;
+        margin-right: 0px;
+        width: 25%;
+        float: left;
+        height: 450px;
+        border-radius: 12px 0px 0px 12px;
+    }
+    #divdve {
+        margin: 5%;
+        display: inline-block;
+        margin-right: 0px;
+        padding: 0%;
+        width: 25%;
+        margin-left: 0%;
+        float: left;
+        height: 450px;
+    }
+    #divtri {
+        height: 450px;
+        margin: 5%;
+        display: inline-block;
+        margin-right: 0px;
+        width: 25%;
+        margin-left: 0%;
+        float: left;
+        border-radius: 0px 12px 12px 0px;
+    }
+}
